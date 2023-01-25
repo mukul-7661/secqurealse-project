@@ -1,0 +1,13 @@
+.left {
+  position: static;
+  z-index: 100;
+  top: 60px;
+  left: 0;
+  background-color: rgb(69, 136, 199);
+  height: calc(100vh - 60px);
+  width: 60px;
+}
+
+.menu__left {
+  margin-top: 20px;
+}

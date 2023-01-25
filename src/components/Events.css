@@ -1,0 +1,61 @@
+.events {
+  flex-grow: 1;
+  border: 10px solid rgb(193, 187, 187);
+  height: calc(100vh - 60px);
+}
+
+.events__box {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.events__items {
+  overflow: scroll;
+  height: calc(100vh - 140px);
+}
+
+.filter {
+  position: absolute;
+  z-index: 100;
+  top: 100px;
+  right: 40px;
+  background-color: aqua;
+}
+
+.filterIcon:hover {
+  cursor: pointer;
+  background-color: black;
+  color: beige;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.filter__title {
+  margin: 15px 20px;
+}
+
+.option {
+  font-size: 20px;
+  margin-right: 20px;
+  margin-left: 5px;
+}
+
+.btn__filter {
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  width: 160px;
+  background-color: rgb(162, 58, 145);
+  font-weight: 600;
+}
+
+.btn__filter:hover {
+  cursor: pointer;
+}

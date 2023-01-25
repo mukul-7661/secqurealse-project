@@ -1,0 +1,46 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  background-color: aqua;
+
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  align-items: center;
+}
+
+.nav__list {
+  list-style: none;
+  font-weight: 700;
+}
+
+.first {
+  font-size: 30px;
+}
+
+.second {
+  font-size: 25px;
+}
+
+.third {
+  font-size: 29px;
+  color: red;
+}
+
+.nav__counters {
+  display: flex;
+}
+
+.nav__counter__male {
+  margin: 10px;
+  background-color: rgb(125, 207, 125);
+  padding: 10px 20px;
+}
+
+.nav__counter__female {
+  margin: 10px;
+  background-color: rgb(210, 63, 173);
+  padding: 10px 20px;
+}
